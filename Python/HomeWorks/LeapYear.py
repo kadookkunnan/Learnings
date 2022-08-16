@@ -1,7 +1,7 @@
 # importing libraries
 from curses.ascii import isdigit
 
-# Function to return a valid input as integer
+# Function to return a valid input as year
 def getValidInputYear() -> int:
     inputInvalid = True
     
