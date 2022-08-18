@@ -30,6 +30,7 @@ num_times = getValidInput()
 # Echo/print the number back to the user.
 print(f"You entered number: {num_times} \n__________________________________")
 
+# Printing the results as per the operation
 print(f"{first_string} + {second_string} is {first_string+second_string} \n__________________________________")
 print(f"{first_string} * {num_times} is {first_string * num_times} \n__________________________________")
 print(f"{second_string} * {num_times} is {second_string * num_times} \n__________________________________")
