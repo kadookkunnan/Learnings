@@ -14,7 +14,7 @@ print(f"Printing the characters of <{input_string}>\n")
 i = 0
 while i < string_length:
     print(input_string[i])
-    i = i + 1
+    i += 1
 
 # Print the statement to print the letters in reverse
 print(f"\nPrinting the characters of <{input_string}> in reverse\n")
@@ -23,4 +23,4 @@ print(f"\nPrinting the characters of <{input_string}> in reverse\n")
 i = string_length - 1
 while i >= 0:
     print(input_string[i])
-    i = i - 1
+    i -= 1
